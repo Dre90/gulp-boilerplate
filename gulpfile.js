@@ -71,6 +71,12 @@ gulp.task('useref', function(){
     .pipe(gulp.dest('dist'))
 });
 
+// Copying php files
+// gulp.task('movePHP', function(){
+//   return gulp.src('app/**/*.php')
+//   .pipe(gulp.dest('dist'));
+// })
+
 // Optimizing Images
 gulp.task('images', function(){
   return gulp.src('app/images/**/*.+(png|jpg|jpeg|gif|svg)')
